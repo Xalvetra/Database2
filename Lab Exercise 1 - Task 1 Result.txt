@@ -1,0 +1,2 @@
+SELECT productname , categoryname from Production.Products as p inner join Production.Categories as c 
+ON p.productid = c.categoryid;
